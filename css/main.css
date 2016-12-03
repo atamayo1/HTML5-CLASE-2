@@ -1,0 +1,94 @@
+/*
+header: #A0D5D6
+section: #789AA1
+h1: #DCEBDD
+h2: #AD9A27
+footer: #304345
+*/
+/*Neutralidad*/
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  background: #fff;
+}
+header, article, aside, footer, nav{
+  display: block;
+}
+body{
+  width: 960px;
+  height: 960px;
+  margin: 0 auto;
+
+}
+/*ESTRUCTURA*/
+header{
+  height: 90px;
+  background-color: #A0D5D6;
+}
+section{
+  height: 480px;
+  background: #789AA1;
+}
+article{
+  width: 600px;
+  float: left;
+}
+aside{
+  width: 360px;
+  float: right;
+}
+footer{
+  height: 60px;
+  background: #304345;
+}
+nav{
+  font-size: .7em;
+  color: #AD9A27;
+  text-align: center;
+  padding-top: 0.5em;
+
+}
+/*Estilos en cascada*/
+h1{
+  text-align: center;
+  color: #DCEBDD;
+
+}
+h2{
+  text-align: center;
+  color: #AD9A27;
+  margin-top: 20px;
+
+}
+h3{
+  clear: both;
+  text-align: center;
+  color: #AD9A27;
+  font-size: .8em;
+  padding-top: 1em;
+}
+p{
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+ul, li{
+  display: inline;
+}
+a{
+  text-decoration: none;
+  text-align: center;
+  color: #AD9A27
+}
+/*Clases*/
+.der{
+  float: right;
+  margin-left: 1em;
+}
+.izq{
+  float: left;
+  margin-right: 1em;
+
+}
